@@ -1,0 +1,126 @@
+.nav {
+    background: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #111111;
+    width: 100%;
+
+    .mobile-menu-icon {
+        display: none;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .title {
+        color: #111111;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+
+        a {
+            color: #111111;
+            font-size: 20px;
+        }
+
+        .svg {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    }
+
+    .links {
+        display: flex;
+        color: #111111;
+    }
+
+    .arrow {
+        position: absolute;
+        font-size: 40px;
+        color: #A67B48;
+        top: 29px;
+        right: 50px;
+        display: none;
+        z-index: 11;
+    }
+
+    .nav-link {
+        position: relative;
+        .inner-link .svg {
+            transition: .25s;
+        }
+        &:hover {
+            .arrow {
+                display: block;
+            }
+            .nav-megamenu, .nav-megamenu2 {
+                display: flex;
+            }
+            .inner-link .svg {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    .nav-link a {
+        margin: 0 8px;
+        padding: 10px 10px;
+    }
+
+    .inner-link {
+        font-size: 18px;
+        color: #111111;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-contact {
+        font-size: 10px;
+        color: #111111;
+        padding: 10px 30px;
+        border-radius: 23px;
+        display: flex;
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .phone-svg {
+                font-size: 22px;
+                margin-right: 5px;
+            }
+
+            h4 {
+                font-size: 15px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 10px;
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+    .signup {
+        color: #fff;
+        background: #111111;
+        padding: 15px 30px;
+        border-radius: 25px;
+        margin-left: 15px;
+    }
+  
+    @media (max-width: 1230px) {
+        .links, .nav-contact {
+            display: none;
+        }
+    
+        .mobile-menu-icon {
+            display: block;
+        }
+    }
+}

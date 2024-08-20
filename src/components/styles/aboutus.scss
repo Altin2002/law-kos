@@ -1,0 +1,58 @@
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0;
+
+    .aboutus-title {
+        hr {
+            width: 12em;
+            color: #111;
+            background-color: #111;
+            margin-bottom: 65px;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: lighter;
+        }
+    }
+
+    .aboutus-content {
+        display: flex;
+        text-align: left;
+
+        p {
+            // display: flex;
+            font-size: max(3em, 2em);
+
+            button {
+                background: transparent;
+                margin-left: 15px;
+                font-size: 15px;
+                padding: 13px 40px;
+                border: 1px solid #111;
+                border-radius: 25px;
+                cursor: pointer;
+                .btn-arrow {
+                    margin-left: 15px;
+                    text-align: center;
+                    align-self: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1475px ) {
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        // hr {
+        //     display: none;
+        // }
+        h1 {
+            margin-bottom: 25px;
+        }
+    }
+}

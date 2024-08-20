@@ -1,0 +1,95 @@
+.nav-megamenu2 {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -450px;
+    width: 100vw;
+    max-width: 1100px;
+    // min-width: 1200px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 10;
+
+    h3 {
+        font-size: 1.3rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .nav-megamenu-content2 {
+        display: flex;
+        justify-content: space-between;
+
+        .menu-links2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 500px;
+        }
+
+        .menu-link2 {
+            .block2 {
+                background-color: transparent;
+                padding: 15px;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                text-align: left;
+
+                &:hover {
+                    border: 1px solid #A67B48;
+                    border-radius: 15px;
+                }
+
+                .icon2 {
+                    color: #A67B48;
+                    font-size: 40px;
+                    margin-bottom: 5px;
+                }
+
+                h6 {
+                    font-size: 0.7rem;
+                    font-weight: 500;
+                    color: #555;
+                }
+            }
+        }
+
+        .mega-right2 {
+            background: #FBF6F1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            // padding: 20px 0;
+            border-left: 2px solid #ddd;
+
+            .right-personal2, .right-business2 {
+                padding: 15px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+
+                h1 {
+                    font-size: 1.2rem;
+                    color: #333;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                    color: #777;
+                }
+
+                hr {
+                    width: 30%;
+                    border: 1px solid #A67B48;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

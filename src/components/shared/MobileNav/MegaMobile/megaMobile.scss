@@ -1,0 +1,17 @@
+.mega-items {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #8a8787;
+    margin-top: 25px;
+    p {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid gray;
+        margin: 10px 0;
+        span {
+            color: #A67B48;
+            margin-right: 15px;
+        }
+    }
+    
+}
