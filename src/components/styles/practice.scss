@@ -1,0 +1,112 @@
+.practice {
+
+    // display: flex;
+    // flex-direction: column;
+
+    .practice-content {
+        display: flex;
+        flex-direction: column;
+
+        .practice-title {
+            h1 {
+                font-size: 4.5em;
+                margin-bottom: 45px;
+                font-weight: lighter;
+            }
+
+            hr {
+                width: 15%;
+                background-color: #111;
+            }
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5.5em;
+            margin: 100px 0;
+
+            .practice-icon {
+                color: #A67B48;
+                font-size: 4em;
+                margin-bottom: 5px;
+
+            }
+
+            .practice-card-title {
+                margin: 25px 0;
+                font-size: 1.8em;
+                font-weight: bold;
+            }
+
+
+
+        }
+    }
+}
+
+@media (max-width: 1475px) {
+    .practice {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .practice-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                // margin: 100px 0;
+                .card-data {
+                    width: 400px;
+
+                    .practice-card-description {
+                        font-size: max(1.3em, 1.5em);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .practice {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .practice-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 400px;
+                // margin: 100px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .practice {
+        display: flex;
+        width: 100%;
+        .practice-content {
+            .practice-title {
+                font-size: .8em;
+                width: 80%;
+            }
+            .cards {
+                width: 100%;
+            }
+        }
+    }
+}

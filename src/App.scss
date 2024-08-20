@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
 *,
 *::after,
 *::before {
@@ -6,7 +8,6 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  font-family: "Wix Madefor Text, sans-serif";
 }
 
 body,
@@ -15,17 +16,21 @@ html,
   margin: 0;
   display: flex;
   justify-content: center;
-  // align-items: center;
   scroll-behavior: smooth;
   background-color: #fff;
+  font-family: "Open Sans, sans-serif";
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 90vw;
+  margin: 0 auto;
+}
+
+.home-page {
   margin: 0 auto;
 }
 
