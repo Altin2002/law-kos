@@ -6,6 +6,8 @@ import AboutUs from '../components/AboutUs/AboutUs'
 import Experience from '../components/Experience/Experience'
 import Practice from '../components/Practice/Practice'
 import Banner from '../components/Banner/Banner'
+import Team from '../components/Team/Team'
+import NewsAndEvents from '../components/NewsAndEvents/NewsAndEvents'
 
 
 const Home = () => {
@@ -18,6 +20,8 @@ const Home = () => {
         <Experience />
         <Practice />
         <Banner />
+        <Team />
+        <NewsAndEvents />
     </div>
   )
 }

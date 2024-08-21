@@ -180,17 +180,20 @@ export const TeamData = [
     {
         image: labinot,
         description: 'Labinot has been working with LawKos for over 10 years. He has helped a lot of our clients achieve their goals with their cases...',
-        position: 'Managin Partner',
+        name: 'Labinot Halimi',
+        position: 'Managing Partner',
     },
     {
         image: arbenita,
-        description: 'Labinot has been working with LawKos for over 10 years. He has helped a lot of our clients achieve their goals with their cases...',
+        description: 'Arbenita has been working with LawKos for over 10 years. She has helped a lot of our clients achieve their goals with their cases...',
+        name: 'Arbenita Jashari',
         position: 'Attorney at law, Partner',
     },
     {
         image: festina,
-        description: 'Labinot has been working with LawKos for over 10 years. He has helped a lot of our clients achieve their goals with their cases...',
+        description: 'Festina has been working with LawKos for over 10 years. She has helped a lot of our clients achieve their goals with their cases...',
+        name: 'Festina Murati',
         position: 'Attorney at law',
     },
-
+    
 ]

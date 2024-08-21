@@ -1,0 +1,164 @@
+.news-events {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+
+    .news-title {
+        h1 {
+            font-size: min(5em, 3em);
+            margin-bottom: 45px;
+            font-weight: lighter;
+        }
+
+        hr {
+            width: 15%;
+            background-color: #111;
+        }
+    }
+
+    .news-cards {
+        color: #fff;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        // gap: 30px;
+
+        .news-left-card {
+            background-image: url('../../assets//events1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            text-align: left;
+            border-radius: 50px;
+            // width: clamp(250px, 500px, 30%);
+            width: 50%;
+            height: 570px;
+            margin-right: 20px;
+            .left-card-text {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: -50px;
+                right: -40px;
+                font-size: max(1em, 1.6em);
+                p {
+                    margin: 15px 0;
+                }
+            }
+           
+
+        }
+
+        .news-right-card {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .up-card {
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                height: 300px;
+                width: 100%;
+                background-image: url('../../assets//events3.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                .up-card-text {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: -60px;
+                left: -130px;
+                font-size: max(1em, 1.4em);
+                p {
+                    margin: 15px 0;
+                }
+
+                }
+            }
+
+            .down-card {
+                height: 270px;
+                width: 100%;
+                background-image: url('../../assets//events2.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                .down-card-text {
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    top: 130px;
+                    left: 70px;
+                    font-size: max(1em, 1.4em);
+                    p {
+                        margin: 15px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1475px ) {
+    .news-events {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .news-cards {
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .news-left-card {
+                width: 80%;
+                margin: 30px 0;
+            }
+            .news-right-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                .up-card {
+                    width: 100%;
+                    height: 570px;
+                    background-size: cover;
+                    border-radius: 50px;
+                    text-align: left;
+                    justify-content: flex-start;
+                    margin: 25px 0;
+                    .up-card-text {
+                    top: -50px;
+                    left: 50px;
+                    }
+                }
+                .down-card {
+                    width: 100%;
+                    height: 570px;
+                    background-size: cover;
+                    border-radius: 50px;
+                    text-align: left;
+                    justify-content: flex-start;
+                    margin: 25px 0;
+                    .down-card-text {
+                    top: 425px;
+                    left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px ) {
+    .news-cards {
+        width: 100%;
+    }
+}

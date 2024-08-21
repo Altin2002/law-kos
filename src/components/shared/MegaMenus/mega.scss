@@ -4,7 +4,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: -495px;
+    left: -470px;
     width: 100vw;
     max-width: 1500px;
     // min-width: 1200px;
@@ -100,4 +100,10 @@
         left: -350px;
     }
 
+}
+
+@media (max-width: 1280px) {
+    .nav-megamenu {
+        left: -290px;
+    }
 }
