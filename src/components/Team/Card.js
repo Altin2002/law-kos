@@ -8,7 +8,7 @@ const Card = ({ imageSrc, description, name, position }) => {
         <img src={imageSrc} alt={name} />
         <div className="card-description">
           <p>{description}</p>
-          <a href="#">Read more</a>
+          <a href="/">Read more</a>
         </div>
       </div>
       <div className="card-info">
