@@ -6,9 +6,10 @@
 
     .news-title {
         h1 {
-            font-size: min(5em, 3em);
+            font-family: "Playfair Display", serif;
+            font-size: clamp(55px, 2.5vw, 109px);
             margin-bottom: 45px;
-            font-weight: lighter;
+            font-weight: 500;
         }
 
         hr {
@@ -25,7 +26,7 @@
         // gap: 30px;
 
         .news-left-card {
-            background-image: url('../../assets//events1.png');
+            background-image: url('../../assets/events1.png');
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
@@ -34,7 +35,6 @@
             align-items: flex-start;
             text-align: left;
             border-radius: 50px;
-            // width: clamp(250px, 500px, 30%);
             width: 50%;
             height: 570px;
             margin-right: 20px;
@@ -44,8 +44,12 @@
                 position: relative;
                 top: -50px;
                 right: -40px;
-                font-size: max(1em, 1.6em);
+                h3{
+                    width: 100%;
+                    font-size: clamp(15px, 2vw, 31px);
+                }
                 p {
+                    font-size: clamp(10px, 1.5vw, 15px);
                     margin: 15px 0;
                 }
             }
@@ -65,7 +69,7 @@
                 align-items: flex-end;
                 height: 300px;
                 width: 100%;
-                background-image: url('../../assets//events3.png');
+                background-image: url('../../assets/events3.png');
                 background-repeat: no-repeat;
                 background-size: contain;
                 .up-card-text {
@@ -73,9 +77,13 @@
                 flex-direction: column;
                 position: relative;
                 top: -60px;
-                left: -130px;
-                font-size: max(1em, 1.4em);
+                left: -100px;
+                h3 {
+                    width: 100%;
+                    font-size: clamp(10px, 1.9vw, 25px);
+                }
                 p {
+                    font-size: clamp(14px, 1.8vw, 18px);
                     margin: 15px 0;
                 }
 
@@ -85,7 +93,7 @@
             .down-card {
                 height: 270px;
                 width: 100%;
-                background-image: url('../../assets//events2.png');
+                background-image: url('../../assets/events2.png');
                 background-repeat: no-repeat;
                 background-size: contain;
                 .down-card-text {
@@ -94,8 +102,12 @@
                     position: relative;
                     top: 130px;
                     left: 70px;
-                    font-size: max(1em, 1.4em);
+                    h3 {
+                        width: 100%;
+                        font-size: clamp(10px, 1.9vw, 25px);
+                    }
                     p {
+                        font-size: clamp(14px, 1.8vw, 18px);
                         margin: 15px 0;
                     }
                 }

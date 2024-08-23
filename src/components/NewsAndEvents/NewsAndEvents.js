@@ -7,7 +7,7 @@ const NewsAndEvents = () => {
             <div className='news-title'>
                 <div className='title'>
                     <h1>News & Events</h1>
-                    <hr size='7' />
+                    <hr size='5' />
                 </div>
             </div>
 

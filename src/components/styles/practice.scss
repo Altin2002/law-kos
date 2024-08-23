@@ -1,5 +1,5 @@
 .practice {
-
+    margin-top: 8rem;
     // display: flex;
     // flex-direction: column;
 
@@ -9,9 +9,10 @@
 
         .practice-title {
             h1 {
-                font-size: 4.5em;
+                font-family: "Playfair Display", serif;
+                font-size: clamp(55px, 2.5vw, 109px);
                 margin-bottom: 45px;
-                font-weight: lighter;
+                font-weight: 500;
             }
 
             hr {
@@ -34,9 +35,14 @@
             }
 
             .practice-card-title {
+                font-family: "Playfair Display", serif;
                 margin: 25px 0;
-                font-size: 1.8em;
-                font-weight: bold;
+                font-size: clamp(25px, 1.5vw, 32px);
+                font-weight: 600;
+            }
+
+            .practice-card-description {
+                font-size: clamp(15px, 1vw, 20px);
             }
 
 
@@ -60,13 +66,8 @@
             .cards {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                // margin: 100px 0;
                 .card-data {
-                    width: 400px;
-
-                    .practice-card-description {
-                        font-size: max(1.3em, 1.5em);
-                    }
+                    width: 400px; 
                 }
             }
         }
@@ -89,7 +90,6 @@
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
                 width: 400px;
-                // margin: 100px 0;
             }
         }
     }
@@ -101,7 +101,6 @@
         width: 100%;
         .practice-content {
             .practice-title {
-                font-size: .8em;
                 width: 80%;
             }
             .cards {

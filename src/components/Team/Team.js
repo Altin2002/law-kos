@@ -8,7 +8,7 @@ const Team = () => {
         <div className='team'>
             <div className='team-title'>
                 <h1>Meet our team</h1>
-                <hr size='6' />
+                <hr size='5' />
                 <p>Meet the brilliant minds behind LawKos. Our team of skilled lawyers and legal experts <br />
                 make LawKos your best choice for legal represnatation.</p>
             </div>

@@ -1,51 +1,60 @@
-.banner {
-    background-image: url('../../assets/banner.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 520px;
-    margin: 70px 0;
-    border-radius: 40px;
+.banner-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
-    .banner-text {
+    .banner {
+        background-image: url('../../assets/banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        min-height: 520px;
+        width: 90%;
+        margin: 60px 0;
+        border-radius: 40px;
         display: flex;
-        position: relative;
-        top: 60px;
-        left: 60px;
-        font-size: max(2em, 1.3em);
-        letter-spacing: normal;
-    }
+        justify-content: space-between;
 
-    .banner-logo {
-        background-color: #A67B48;
-        height: 100px;
-        width: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 100%;
-        position: relative;
-        top: 50px;
-        right: 60px;
+        .banner-text {
+            font-family: "Playfair Display", serif;
+            display: flex;
+            position: relative;
+            top: 60px;
+            left: 60px;
+            font-size: clamp(25px, 2.5vw, 40px);
+            letter-spacing: normal;
+        }
+
+        .banner-logo {
+            background-color: #A67B48;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            position: relative;
+            top: 20px;
+            right: 80px;
+        }
     }
 }
 
 @media (max-width: 1475px) {
-    .banner {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        width: 100%;
-        .banner-text {
-            width: 50%;
-        }
+    .banner-content {
+        .banner {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
 
-        .banner-logo {
-            position: relative;
-            top: -60px;
-            right: -50px;
+            .banner-text {
+                width: 50%;
+            }
+
+            .banner-logo {
+                position: relative;
+                top: -70px;
+                right: -40px;
+            }
         }
     }
 }
@@ -68,9 +77,8 @@
 }
 
 
-@media (max-width: 730px) {
-    .banner-logo{
-        left: 265px;
+@media (max-width: 601px) {
+    .banner-logo {
+        left: 205px;
     }
 }
-

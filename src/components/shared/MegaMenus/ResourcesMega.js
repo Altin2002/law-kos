@@ -13,7 +13,9 @@ const ResourcesMega = () => {
                 <div className='menu-link2' key={index}>
                     <Link to='/'>
                         <div className='block2'>
-                            <div className='icon2'>{props.icon}</div>
+                            <div className='icon2'>
+                                <img src={props.icon} alt={props.title} />
+                            </div>
                             <h6>{props.title}</h6>
                         </div>
                     </Link>

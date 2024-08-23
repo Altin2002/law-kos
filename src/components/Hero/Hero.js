@@ -20,6 +20,7 @@ const Hero = () => {
                 </div>
                 <div className='hero-lower'>
                     <img src={props.img} alt={props.title}/>
+                    {/* {props.img} */}
                     {/* <img className='top-image' src={props.img2} alt='second pic' /> */}
                 </div>
             </div>

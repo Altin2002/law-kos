@@ -15,7 +15,9 @@ const ServicesMega = () => {
                     <div className='menu-link' key={index}>
                         <Link to='/'>
                             <div className='block'>
-                                <div className='icon'>{props.icon}</div>
+                                <div className='icon'>
+                                    <img src={props.icon} alt={props.title} />
+                                </div>
                                 <h6>{props.title}</h6>
                             </div>
                         </Link>

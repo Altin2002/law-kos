@@ -14,6 +14,7 @@
         border: none;
         cursor: pointer;
     }
+
     .title {
         color: #111111;
         font-size: 20px;
@@ -50,16 +51,21 @@
 
     .nav-link {
         position: relative;
+
         .inner-link .svg {
             transition: .25s;
         }
+
         &:hover {
             .arrow {
                 display: block;
             }
-            .nav-megamenu, .nav-megamenu2 {
+
+            .nav-megamenu,
+            .nav-megamenu2 {
                 display: flex;
             }
+
             .inner-link .svg {
                 transform: rotate(-180deg);
             }
@@ -84,6 +90,7 @@
         padding: 10px 30px;
         border-radius: 23px;
         display: flex;
+
         .contact-info {
             display: flex;
             justify-content: center;
@@ -98,6 +105,7 @@
                 font-size: 15px;
                 font-weight: bold;
             }
+
             p {
                 font-size: 10px;
                 margin-left: 10px;
@@ -109,30 +117,40 @@
     .signup {
         color: #fff;
         background: #111111;
-        padding: 18px 50px;
-        font-size: .8rem;
+        padding: 17px 45px;
+        font-size: .7rem;
         border-radius: 25px;
         margin-left: 15px;
     }
-  
-    @media(max-width: 1143px) {
+}
+
+@media(max-width: 1206px) {
+    .nav {
+
         .nav-link a {
             margin: 0 3px;
         }
+
         .nav-contact {
-            padding: 5px 10px;
+            padding: 5px 8px;
+
             .signup {
-                padding: 18px 30px;
+                padding: 15px 20px;
             }
+
         }
     }
+}
 
 
-    @media (max-width: 1030px) {
-        .links, .nav-contact {
+@media (max-width: 1046px) {
+    .nav {
+
+        .links,
+        .nav-contact {
             display: none;
         }
-    
+
         .mobile-menu-icon {
             display: block;
         }

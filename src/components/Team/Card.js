@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/card.scss';
+import { FaPlus } from "react-icons/fa";
 
 const Card = ({ imageSrc, description, name, position }) => {
   return (
@@ -14,7 +15,9 @@ const Card = ({ imageSrc, description, name, position }) => {
       <div className="card-info">
         <h3>{name}</h3>
         <p>{position}</p>
-        <div className="card-icon">+</div>
+        <div className="card-icon">
+          <FaPlus />
+        </div>
       </div>
     </div>
   );

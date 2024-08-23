@@ -13,7 +13,8 @@
         }
 
         h1 {
-            font-size: 2em;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(30px, 1.5vw, 52px);
             font-weight: lighter;
         }
     }
@@ -24,7 +25,8 @@
 
         p {
             // display: flex;
-            font-size: max(3em, 2em);
+            font-family: "Playfair Display", serif;
+            font-size: clamp(30px, 4vw, 62px);
 
             button {
                 background: transparent;

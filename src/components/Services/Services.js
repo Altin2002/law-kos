@@ -7,13 +7,13 @@ const Services = () => {
     <div className='services'>
             <div className='services-title'>
                 <h1>Services</h1>
-                <hr size='6' />
+                <hr size='5' />
             </div>
 
             <div className='services-mid-section'>
                 <div className='services-personal'>
                     <h3>Personal</h3>
-                    <p>
+                    <p> 
                         From family law to personal injury, we treat<br /> your
                         case with the care it deserves. Let's <br />protect what
                         matters most to you.

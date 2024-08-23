@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="731.17" viewBox="0 0 1655.001 731.17">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="310.196 151.205 1344.805 594.127">
+      <image preserveAspectRatio="xMidYMid slice" width="1200" height="1103.334" xlink:href="Union%205-image.jpg"/>
+    </pattern>
+  </defs>
+  <path id="Union_5" data-name="Union 5" d="M-14589.022,743.168a30,30,0,0,1-30-30V42a30,30,0,0,1,30-30h469.045a30,30,0,0,1,30,30V713.167a30,30,0,0,1-30,30Zm562.98-173.809a30,30,0,0,1-30-30V42a30,30,0,0,1,30-30H-13557a30,30,0,0,1,30,30V539.358a30,30,0,0,1-30,30Zm-1125.957,0a30,30,0,0,1-30-30V42a30,30,0,0,1,30-30h468.042a30.005,30.005,0,0,1,30,30V539.358a30,30,0,0,1-30,30Z" transform="translate(15182.001 -11.998)" fill="url(#pattern)"/>
+</svg>

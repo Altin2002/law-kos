@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className='about-us'>
     <div className='aboutus-title'>
-        <hr size='6' />
+        <hr size='5' />
         <h1>ABOUT US</h1>
     </div>
     <div className='aboutus-content'>

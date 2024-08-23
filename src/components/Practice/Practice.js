@@ -8,7 +8,7 @@ const Practice = () => {
     <div className='practice-content'>
         <div className='practice-title'>
             <h1>Our practice area</h1>
-            <hr size='6' />
+            <hr size='5' />
         </div>
 
         <div className='cards'>
@@ -16,7 +16,9 @@ const Practice = () => {
                 return (
 
                     <div className='card-data' key={index}>
-                        <div className='practice-icon'>{props.icon}</div>
+                        <div className='practice-icon'>
+                            <img src={props.icon}  alt='title'/>
+                            </div>
                         <div className='practice-card-title'>{props.title}</div>
                         <div className='practice-card-description'>
                             <p>{props.description}</p>

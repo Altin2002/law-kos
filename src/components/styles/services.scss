@@ -5,9 +5,10 @@
 
     .services-title {
         h1 {
-            font-size: clamp(4rem, 4vw, 5rem);
+            font-family: "Playfair Display", serif;
+            font-size: clamp(50px, 4.5vw, 109px);
             margin-bottom: 45px;
-            font-weight: lighter;
+            font-weight: 500;
 
         }
 
@@ -26,12 +27,14 @@
         .services-personal,
         .services-business {
             h3 {
-                font-size: 2em;
+                font-family: "Playfair Display", serif;
+                font-weight: 600;
+                font-size: clamp(25px, 2em, 50px);
                 margin-bottom: 20px;
             }
 
             p {
-                font-size: min(1.8em, 1.5em);
+                font-size: clamp(20px, 1.5em, 40px);
             }
         }
     }
