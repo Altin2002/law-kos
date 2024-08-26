@@ -1,0 +1,185 @@
+body.dark-mode {
+    background-color: #1A1816;
+    color: #ffffff;
+
+    .nav {
+        color: #ffffff;
+
+        .mobile-menu-icon {
+            color: #ffffff;
+        }
+
+        .title {
+            color: #ffffff;
+
+            .svg {
+                content: url('./assets/logoWhite.png');
+            }
+
+            a {
+                color: #ffffff;
+            }
+        }
+
+        .links {
+            color: #ffffff;
+        }
+
+        .inner-link {
+            color: #ffffff;
+        }
+
+        .nav-contact {
+            color: #ffffff;
+        }
+
+        .signup {
+            background-color: #746859;
+        }
+    }
+
+    .nav-megamenu {
+        background-color: #232220;
+
+        h3 {
+            color: #ffffff;
+        }
+
+        .nav-megamenu-content {
+            .menu-link {
+                h6 {
+                    color: #ffffff;
+                }
+
+            }
+        }
+
+        .mega-right {
+            background: #312D29;
+
+            .right-personal, .right-business {
+
+                h1 {
+                    color: #ffffff;
+                }
+                p{
+                    color: #ffffff;
+                }
+                hr {
+                    border: 1px solid #ffffff;
+
+                }
+            }
+
+        }
+    }
+
+    .nav-megamenu2 {
+        background-color: #232220;
+
+        h3 {
+            color: #ffffff;
+        }
+
+        .nav-megamenu-content2 {
+            .menu-link2 {
+                h6 {
+                    color: #ffffff;
+                }
+
+            }
+        }
+
+        .mega-right2 {
+            background: #312D29;
+
+            .right-personal2, .right-business2 {
+
+                h1 {
+                    color: #ffffff;
+                }
+                p{
+                    color: #ffffff;
+                }
+                hr {
+                    border: 1px solid #ffffff;
+
+                }
+            }
+
+        }
+    }
+
+    .navbar-mobile {
+        background-color: #1A1816;
+        color: #ffffff;
+
+        .mobile-header {
+            background-color: #1A1816;
+            color: #ffffff;
+
+            .logo {
+                img {
+                    content: url('./assets/logoWhite.png');
+                }
+            }
+        }
+
+        ul {
+            color: #ffffff;
+
+            li {
+                color: #ffffff;
+
+                a {
+                    color: #ffffff;
+
+                }
+            }
+        }
+
+        .side-contact {
+            button {
+                background-color: #746859;
+            }
+
+            .side-number {
+                a {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .about-us {
+        .aboutus-content {
+            button {
+                border: 1px solid #ffffff;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .banner-content {
+        .banner {
+            color: #111;
+        }
+    }
+
+    .card {
+        .card-image {
+            .card-description {
+                color: #111;
+            }
+        }
+    }
+
+    .testimonials {
+        .testimonials-content {
+            .clients {
+                background-image: url('./assets/Subtraction2.png');
+            }
+        }
+    }
+
+}

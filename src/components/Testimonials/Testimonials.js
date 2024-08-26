@@ -14,11 +14,11 @@ const Testimonials = () => {
                     {TestimonialsData.map((clients, index) => {
                         return (
                             <div className='client' key={index}>
-                                <div>
+                                <div className='client-description'>
                                     <img src={clients.image} alt={clients.name} />
                                     <p>{clients.description}</p>
                                 </div>
-                                <hr />
+                                <hr size='5' />
                                 <div className='name-position'>
                                     <h3>{clients.name}</h3>
                                     <p>{clients.postion}</p>

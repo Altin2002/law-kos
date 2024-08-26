@@ -1,15 +1,14 @@
 .hero {
-    width: 100%;
     display: flex;
-    margin: 0 auto;
-    margin-top: 3em;
-    margin-bottom: 20px;
+    margin: 5rem 4%;
 
     .hero-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        // margin: 80px 4%;
+
 
         .hero-upper {
             display: flex;
@@ -90,7 +89,7 @@
         .hero-section {
             .hero-upper {
                 .hero-title {
-                    margin-right: 10em;
+                    margin-right: 8em;
 
                 }
             }
@@ -106,7 +105,7 @@
         .hero-upper {
             flex-direction: column;
             justify-content: center;
-            width: 60%;
+            width: 50%;
             text-align: center;
             align-items: center;
 
@@ -127,12 +126,4 @@
             }
         }
     }
-}
-
-.hero-lower {
-    width: 100%;
-    // .top-image {
-    //     display: none;
-
-    // }
 }

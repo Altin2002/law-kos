@@ -8,14 +8,14 @@ import Practice from '../components/Practice/Practice'
 import Banner from '../components/Banner/Banner'
 import Team from '../components/Team/Team'
 import NewsAndEvents from '../components/NewsAndEvents/NewsAndEvents'
-// import Testimonials from '../components/Testimonials/Testimonials'
-// import Footer from '../components/shared/Footer/Footer'
+import Testimonials from '../components/Testimonials/Testimonials'
+import Footer from '../components/shared/Footer/Footer'
 
 
 const Home = () => {
   return (
-    <>
-      <div className='home-page'>
+  
+      <div className='home-page' data-aos="fade-up">
         <Nav />
         <Hero />
         <Services />
@@ -24,11 +24,11 @@ const Home = () => {
         <Practice />
         <Banner />
         <Team />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <NewsAndEvents />
-        {/* <Footer /> */}
+        <Footer />
       </div>
-    </>
+
   )
 }
 

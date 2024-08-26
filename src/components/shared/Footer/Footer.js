@@ -21,6 +21,9 @@ const Footer = () => {
                     <div className="top">
                         <Link to='/' className='logo-container'>
                             <div className="logo">
+
+                            </div>
+                            <div>
                                 <h5>LAWKOS</h5>
                             </div>
                         </Link>
@@ -34,11 +37,15 @@ const Footer = () => {
                     </div>
                     <div className="links1">
                         <div className='contact-info'>
-                            <FiPhoneCall className='phone-svg' />
-                            <div>
-                                <h4>+383 123 456 789</h4>
-                                <p>Call our office</p>
-
+                            <div className='phone'>
+                                <FiPhoneCall className='phone-svg' />
+                                <div>
+                                    <h4>+383 123 456 789</h4>
+                                    <p>Call our office</p>
+                                </div>
+                            </div>
+                            <div className='connect'>
+                                <p>CONNECT WITH US:</p>
                             </div>
                         </div>
                         {SocialMedia.map((props) => {
@@ -59,7 +66,7 @@ const Footer = () => {
                                 <div className="links">
                                     {props.links.map((l, i) => {
                                         return (
-                                            <Link key={l.i} to={l.to} className="footer-item">
+                                            <Link key={i} to={l.to} className="footer-item">
                                                 {l.link}
                                             </Link>
                                         );

@@ -5,7 +5,8 @@
     justify-content: space-between;
     align-items: center;
     color: #111111;
-    width: 100%;
+    // width: 100%;
+    margin: 0 4%;
 
     .mobile-menu-icon {
         display: none;
@@ -87,7 +88,7 @@
     .nav-contact {
         font-size: 10px;
         color: #111111;
-        padding: 10px 30px;
+        padding: 10px 20px;
         border-radius: 23px;
         display: flex;
 

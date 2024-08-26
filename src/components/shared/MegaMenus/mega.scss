@@ -4,10 +4,9 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: -470px;
+    left: -460px;
     width: 100vw;
     max-width: 1500px;
-    // min-width: 1200px;
     background-color: #f7f7f7;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -28,7 +27,7 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
-            max-width: 800px;
+            // max-width: 70%;
         }
 
         .menu-link {
@@ -54,7 +53,7 @@
 
                 h6 {
                     font-family: "Playfair Display", serif;
-                    font-size: 0.7rem;
+                    font-size: 0.8rem;
                     font-weight: 500;
                     color: #555;
                 }
@@ -62,33 +61,38 @@
         }
 
         .mega-right {
+            width: 35%;
             background: #FBF6F1;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             // padding: 20px 0;
-            border-left: 2px solid #ddd;
+            // border-left: 2px solid #ddd;
 
             .right-personal, .right-business {
                 padding: 15px;
                 border-radius: 8px;
-                margin-bottom: 20px;
+                margin-bottom: 50px;
 
                 h1 {
-                    font-size: 1.2rem;
+                    font-family: 'Playfair Display', serif;
+                    font-size: clamp(22px, 1.5vw, 46px);
                     color: #333;
+                    font-weight: 400;
                     margin-bottom: 10px;
                 }
 
                 p {
                     font-size: 0.9rem;
                     color: #777;
+                    font-size: clamp(13px, 1vw, 26px);
+
                 }
 
                 hr {
-                    width: 30%;
-                    border: 1px solid #A67B48;
+                    width: 25%;
+                    border: 1px solid #111;
                     margin-bottom: 15px;
                 }
             }
@@ -106,6 +110,7 @@
 
 @media (max-width: 1280px) {
     .nav-megamenu {
+        
         left: -290px;
     }
 }

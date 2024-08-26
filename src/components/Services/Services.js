@@ -4,7 +4,7 @@ import '../styles/services.scss'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' data-aos="fade-right">
             <div className='services-title'>
                 <h1>Services</h1>
                 <hr size='5' />

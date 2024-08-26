@@ -1,35 +1,158 @@
 .testimonials {
-    margin: 8em 0;
-
+    margin: 100px 0;
+    height: max-content;
+    font-family: "Wix Madefor Text", sans-serif;
+    width: 100%;
+    
     .testimonials-content {
+    //    width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         .title {
+            margin-bottom: 1em;
             h1 {
                 font-family: "Playfair Display", serif;
-                font-size: clamp(45px, 2.2vw, 75px);
-                margin-bottom: 45px;
+                font-size: clamp(40px, 2.2vw, 80px);
                 font-weight: 500;
             }
         }
 
         .clients {
+            background-image: url('../../assets/Subtraction\ 1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             .client {
                 display: flex;
                 flex-direction: column;
-                margin: 25px;
-                background-color: #F5F2EE;
-            
+                // width: 100vw;
+                margin: 8em 4.5%;
 
+                .client-description {
+                    img {
+                        max-width: 200px;
+                        max-height: 200px;
+                        margin-bottom: 2.3em;
+                    }
+                    p {
+                        // width: 80%;
+                        font-size: clamp(8px, 1.2vw, 22px);
+                        margin-bottom: 2em;
+
+                    }
+                }
+            }
+            hr {
+                width: 25%;
+                color: #111;
+                background-color: #111;
+                margin-bottom: 2em;
+            }
+
+            .name-position {
+                h3 {
+                    font-size: clamp(10px, 1.8vw, 22px);
+                    margin-bottom: .5em;
+                }
+                p {
+                    font-size: clamp(13px, 1vw, 18px);
+                    margin-bottom: 4em;
+                }
             }
         }
 
     }
 
+}
+
+@media (min-width: 1710px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: contain;
+
+                .client {
+                    margin: 22em 5%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1638px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: contain;
+
+                .client {
+                    margin: 10em 5%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1563px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: cover;
+
+                .client {
+                    margin-top: 12em;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 1455px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: cover;
+                .client {
+                    margin: 7em 8%;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1330px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: contain;
+                .client {
+                    margin-top: 4.9em;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .testimonials {
+        .testimonials-content{
+            .clients {
+                background-size: contain;
+                .client {
+                    margin-top: 3em;
+                }
+                
+            }
+        }
+    }
 }

@@ -23,7 +23,7 @@ const ServicesMega = () => {
                         </Link>
                     </div>
                 ))}
-            </div>
+            </div> 
             <div className='mega-right'>
                 <div className='right-personal'>
                     <hr />
