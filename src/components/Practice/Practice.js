@@ -15,7 +15,7 @@ const Practice = () => {
             {PracticeArea.map((props, index) => {
                 return (
 
-                    <div className='card-data' key={index}>
+                    <div className='card-data' key={index} data-aos="zoom-in">
                         <div className='practice-icon'>
                             <img src={props.icon}  alt='title'/>
                             </div>

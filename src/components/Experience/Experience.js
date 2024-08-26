@@ -4,7 +4,7 @@ import '../styles/experience.scss'
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div className='experience' data-aos="zoom-in">
             {ExperienceData.map((props, index) => {
                 return (
                     <div className='experience-content' key={index}>
