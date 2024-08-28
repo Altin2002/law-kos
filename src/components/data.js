@@ -1,8 +1,3 @@
-// Hero
-// import {ReactComponent as SVG} from '../assets/heroo.svg'
-import hero from '../assets/hero.png'
-import hero2 from '../assets/hero2.png'
-
 
 // Serives mega, icons
 import  law  from "../assets/icons/law.png";
@@ -69,8 +64,6 @@ export const HeroData = [
         title: 'Legal solutions to solve complex problems',
         description: 'We offer legal and consultancy services tailored to our clients needs. Wherever business takes you, we are here to help.',
         button: 'Get a free consultation',
-        img: hero,
-        img2: hero2,
     }
 ]
 export const ServicesNav = [
