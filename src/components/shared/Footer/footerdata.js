@@ -7,11 +7,7 @@ import {FaLinkedin,
 export const SocialMedia = [
     {
         to:'/',
-        icon: <FaFacebookF />
-    },
-    {
-        to:'/',
-        icon: <FaInstagram />
+        icon: <FaLinkedin />
     },
     {
         to:'/',
@@ -19,13 +15,17 @@ export const SocialMedia = [
     },
     {
         to:'/',
-        icon: <FaLinkedin />
-    }
+        icon: <FaFacebookF />
+    },
+    {
+        to:'/',
+        icon: <FaInstagram />
+    },
 ]
 
 export const FooterData = [
     {
-        category:<FormattedMessage id='company' defaultMessage='ABOUT' />,
+        category:<FormattedMessage id='about' defaultMessage='ABOUT' />,
         links:[
             {
                 link: <FormattedMessage id='about-us' defaultMessage='Our Story' />,
@@ -40,7 +40,7 @@ export const FooterData = [
                 to:'/'
             },
             {
-                link: <FormattedMessage id='our-work' defaultMessage='Clients & Partners' />,
+                link: <FormattedMessage id='clients' defaultMessage='Clients & Partners' />,
                 to:'/'
             },
         
@@ -50,40 +50,40 @@ export const FooterData = [
         category:<FormattedMessage id='services' defaultMessage='SERVICES' />,
         links:[
             {
-                link: <FormattedMessage id='brand-design' defaultMessage='Practice Area' />,
+                link: <FormattedMessage id='practice' defaultMessage='Practice Area' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id='graphic-design' defaultMessage='Solutions' />,
+                link: <FormattedMessage id='solutions' defaultMessage='Solutions' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id='game-art' defaultMessage='Legal Tech' />,
+                link: <FormattedMessage id='legal-tech' defaultMessage='Legal Tech' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id='3d-art-work' defaultMessage='Case Studies' />,
+                link: <FormattedMessage id='case' defaultMessage='Case Studies' />,
                 to:'/'            
             },
         ]
     },
     {
-        category:<FormattedMessage id='support' defaultMessage='RESOURCES' />,
+        category:<FormattedMessage id='resources' defaultMessage='RESOURCES' />,
         links:[
             {
                 link: <FormattedMessage id="contact-us" defaultMessage='Contact Us' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id="culture" defaultMessage='Latest News' />,
+                link: <FormattedMessage id="news" defaultMessage='Latest News' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id="blog" defaultMessage='Insights' />,
+                link: <FormattedMessage id="insights" defaultMessage='Insights' />,
                 to:'/'
             },
             {
-                link: <FormattedMessage id="press" defaultMessage='Legal Notices' />,
+                link: <FormattedMessage id="legal-notices" defaultMessage='Legal Notices' />,
                 to:'/'
             },
             

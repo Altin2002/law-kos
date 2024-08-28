@@ -3,9 +3,9 @@
     height: max-content;
     font-family: "Wix Madefor Text", sans-serif;
     width: 100%;
-    
+
     .testimonials-content {
-    //    width: 100vw;
+        //    width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -13,6 +13,7 @@
 
         .title {
             margin-bottom: 1em;
+
             h1 {
                 font-family: "Playfair Display", serif;
                 font-size: clamp(40px, 2.2vw, 80px);
@@ -40,6 +41,17 @@
                         max-height: 200px;
                         margin-bottom: 2.3em;
                     }
+
+                    span {
+                        font-family:'Times New Roman', Times, serif;
+                        color: #A67B48;
+                        font-size: clamp(100px, 12vw, 150px);
+                        font-weight: bold;
+                        position: absolute;
+                        top: 40%;
+                        transform: translate(-50%, -50%) rotate(-180deg);
+                    }
+
                     p {
                         // width: 80%;
                         font-size: clamp(8px, 1.2vw, 22px);
@@ -48,6 +60,7 @@
                     }
                 }
             }
+
             hr {
                 width: 25%;
                 color: #111;
@@ -60,6 +73,7 @@
                     font-size: clamp(10px, 1.8vw, 22px);
                     margin-bottom: .5em;
                 }
+
                 p {
                     font-size: clamp(13px, 1vw, 18px);
                     margin-bottom: 4em;
@@ -73,7 +87,7 @@
 
 @media (min-width: 1710px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: contain;
 
@@ -87,7 +101,7 @@
 
 @media (min-width: 1638px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: contain;
 
@@ -101,7 +115,7 @@
 
 @media (min-width: 1563px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: cover;
 
@@ -117,13 +131,14 @@
 
 @media (max-width: 1455px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: cover;
+
                 .client {
                     margin: 7em 8%;
                 }
-                
+
             }
         }
     }
@@ -131,13 +146,14 @@
 
 @media (max-width: 1330px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: contain;
+
                 .client {
                     margin-top: 4.9em;
                 }
-                
+
             }
         }
     }
@@ -145,13 +161,20 @@
 
 @media (max-width: 1000px) {
     .testimonials {
-        .testimonials-content{
+        .testimonials-content {
             .clients {
                 background-size: contain;
+
                 .client {
                     margin-top: 3em;
+
+                    .client-description {
+                        span {
+                            top: 160px;
+                        }
+                    }
                 }
-                
+
             }
         }
     }

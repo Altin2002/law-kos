@@ -28,7 +28,7 @@
             width: 55%;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            // justify-content: space-between;
 
             .logo {
                 content: url('../../assets/logoWhite.png');
@@ -39,12 +39,13 @@
             h5 {
                 font-family: "Playfair Display", serif;
                 font-size: clamp(28px, 2vw, 45px);
+                margin-left: .7em;
             }
         }
     
         h5 {
-            font-size: max(10px, 15px);
-            margin: max(20px, 2vw) 0;
+            font-size: max(16px, 22px);
+            margin: .51em 0;
             font-weight: 500;
             color: #fff;
             z-index: 100000;
@@ -85,6 +86,7 @@
     }
 
     .subscribe {
+        margin: 5em 0;
         max-width: 100%;
         input {
             background-color: rgb(47, 48, 49);
@@ -111,9 +113,8 @@
             border-radius: 50px;
             color: #fff;
             left: 12rem;
-            padding: 17px;
+            padding: 16.5px;
             position: relative;
-            top: -1px;
             width: 110px;
             cursor: pointer;
         }
@@ -124,9 +125,11 @@
         margin: 15px 0;
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
         .phone {
             display: flex;
+            align-items: center;
 
             .phone-svg {
                 font-size: 30px;
@@ -144,12 +147,29 @@
             }
         }
 
+        .social {
+            display: flex;
+            justify-content: center;
+
+            .icons {
+                padding: max(.1rem, .2rem);
+                width: 80%;
+                display: flex;
+                justify-content: center;
+
+                .icon {
+                    background: transparent;
+                    font-size: max(14px, 34px);
+                }
+            }
+        }
+
     }
 
 }
 
 .shared-footer .all-footer-links {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 
@@ -164,7 +184,7 @@
     }
 
     h6 {
-        font-size: max(14px, 1.1vw);
+        font-size: max(15px, 1.2vw);
         font-weight: normal;
         text-transform: uppercase;
         margin-bottom: max(10px, 0.75vw);
@@ -172,7 +192,7 @@
 
     a {
         color: #fff;
-        font-size: max(13px, 0.85vw);
+        font-size: max(13px, 0.9vw);
         margin: max(5px, 0.5vw) 0;
         line-height: 1.5;
         transition: 0.1s ease-in-out;
@@ -190,15 +210,23 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    border-top: 1px solid gray;
+    border-top: 1px solid #b6b1b1;
     margin-top: max(20px, 1vw);
    
 
     p {
-        font-size: max(13px, 0.825vw);
+        font-size: max(13px, 0.9vw);
         margin: 15px;
         line-height: 1.7;
         text-align: center;
+    }
+
+    .right {
+        display: flex;
+        justify-content: space-between;
+        button {
+            margin-right: max(15px, 18px);
+        }
     }
 }
 
@@ -217,9 +245,9 @@
                 height: 35px;
                 font-size: 20px;
             }
-            .subscribe {
+            // .subscribe {
 
-            }
+            // }
         }
 
         .main-row .all-footer-links {
@@ -230,6 +258,24 @@
 
 @media(max-width:650px) {
     .shared-footer .first-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .top {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
         text-align: center;
 
         .colors {
@@ -250,11 +296,11 @@
 
         .subscribe {
             input {
-                left: 200px;
+                left: 300px;
             }
 
             #envelope {
-                left: -40px;
+                left: -50px;
             }
 
             button {
@@ -267,9 +313,8 @@
         flex-wrap: wrap;
 
         .footer-list {
-            text-align: center;
-            width: 47.5%;
-            max-width: 47.5%;
+            text-align: left;
+            
             margin: 15px 0;
         }
 
@@ -284,5 +329,7 @@
         p {
             margin-bottom: 25px;
         }
+
+       
     }
 }

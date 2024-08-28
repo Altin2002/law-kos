@@ -6,9 +6,10 @@ import { Link } from 'react-router-dom';
 import { FiPhoneCall } from 'react-icons/fi';
 import { BsEnvelope } from 'react-icons/bs';
 import ThemeSwitcher from './ThemeSwitcher';
+import SelectLanguage from '../SelectLanguage/selectLanguage';
 
 
-const Footer = () => {
+const Footer = (props) => {
 
     // const [mode, setMode] = useState(() => localStorage.getItem("mode"));
 
@@ -47,13 +48,17 @@ const Footer = () => {
                             <div className='connect'>
                                 <p>CONNECT WITH US:</p>
                             </div>
-                        </div>
-                        {SocialMedia.map((props) => {
-                            return (
+                            <div className='social'>
+                                {SocialMedia.map((props) => {
+                                    return (
+                                        <div className='icons'>
+                                            <Link className='icon' to={props.to}>{props.icon}</Link>
+                                        </div>
 
-                                <Link className='social' to={props.to}>{props.icon}</Link>
-                            )
-                        })}
+                                    )
+                                })}
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -80,7 +85,14 @@ const Footer = () => {
             <div className="last-row">
                 <p><FormattedMessage id='footer-paragraph2' defaultMessage='©2024 LAWKOS | ALL RIGHTS RESERVED' /></p>
                 <p><FormattedMessage id='footer-paragraph2' defaultMessage='Privacy | Cookies' /></p>
-                <ThemeSwitcher />
+                <div className='right'>
+                    <ThemeSwitcher/>
+                    <SelectLanguage
+                        setLanguage={props.setLanguage}
+                        language={props.language}
+                    />
+                </div>
+
             </div>
         </div>
     )

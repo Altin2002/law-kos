@@ -14,9 +14,9 @@ import Footer from '../components/shared/Footer/Footer'
 
 const Home = () => {
   return (
-  
+    <>
+      <Nav />
       <div className='home-page' data-aos="fade-up">
-        <Nav />
         <Hero />
         <Services />
         <AboutUs />
@@ -28,6 +28,7 @@ const Home = () => {
         <NewsAndEvents />
         <Footer />
       </div>
+    </>
 
   )
 }
