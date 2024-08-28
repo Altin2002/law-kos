@@ -1,0 +1,123 @@
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 4%;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+
+    .logo {
+        position: absolute;
+        right: -3.5%;
+        top: 30%;
+        max-width: 20%;
+        width: auto;
+        z-index: 2;
+    }
+}
+
+.img-wrapper div {
+    width: 26rem; 
+    height: 53rem; 
+    background: url('../../assets/heroo.png') no-repeat;
+    border-radius: 40px; 
+    background-size: 95rem 57rem; 
+}
+
+.img-wrapper .left {
+    background-position: 0% 0%;
+    height: 37rem; 
+}
+
+.img-wrapper .mid {
+    background-position: 40% 0%;
+    height: 50rem; 
+}
+
+.img-wrapper .right {
+    background-position: 80% 0%;
+    height: 37rem;
+}
+
+@media (min-width: 1700px) {
+    .img-wrapper div {
+        background-size: 112rem 56rem; 
+    }
+}
+
+@media (max-width: 1423px) {
+    .img-wrapper div {
+        width: 23rem;
+        height: 42rem;
+        background-size: 75rem 45rem; 
+    }
+    
+    .logo {
+        max-width: 16%;
+        top: 35%;
+    }
+
+    .img-wrapper .left{
+        height: 30rem;
+    }
+
+    .img-wrapper .mid {
+        height: 40rem; 
+    }
+
+    .img-wrapper .right {
+        height: 30rem; 
+    }
+}
+
+@media (max-width: 1230px) {
+    .img-wrapper div {
+        width: 16rem;
+        height: 32rem; 
+        background-size: 56rem 34rem;
+    }
+    
+    .logo {
+        max-width: 14%;
+        top: 33%;
+    }
+
+    .img-wrapper .left {
+        height: 22rem;
+    }
+
+    .img-wrapper .mid {
+        height: 30rem;
+    }
+
+    .img-wrapper .right {
+        height: 22rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-wrapper div {
+        width: 13rem;
+        height: 26.563rem;
+        background-size: 45rem 28rem; 
+    }
+    
+    .logo {
+        max-width: 12%;
+        top: 31%;
+    }
+
+    .img-wrapper .left {
+        height: 19rem; 
+    }
+
+    .img-wrapper .mid {
+        height: 25rem;
+    }
+
+    .img-wrapper .right {
+        height: 19rem;
+    }
+}
+

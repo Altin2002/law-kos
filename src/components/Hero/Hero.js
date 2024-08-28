@@ -2,6 +2,7 @@ import React from 'react'
 import {HeroData} from '../data'
 import '../styles/hero.scss'
 import { FiArrowRight } from 'react-icons/fi'
+import ImageSection from './ImageSection'
 
 const Hero = () => {
   return (
@@ -18,11 +19,12 @@ const Hero = () => {
                         <button type='button'>{props.button} <FiArrowRight className='button-right'/></button>
                     </div>
                 </div>
-                <div className='hero-lower'>
-                    <img src={props.img} alt={props.title}/>
+                {/* <div className='hero-lower'> */}
+                    <ImageSection />
+                    {/* <img src={props.img} alt={props.title}/> */}
                     {/* {props.img} */}
                     {/* <img className='top-image' src={props.img2} alt='second pic' /> */}
-                </div>
+                {/* </div> */}
             </div>
         )
     })}

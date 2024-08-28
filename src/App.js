@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { translate } from './translation/translate';
+import ScrollToTop from './ScrollToTop/ScrollToTop';
 
 function App() {
 
@@ -25,8 +26,8 @@ function App() {
           formats = {{ number: 'en'}}
           messages = {translate[language]}
         >
-          
           <Router>
+          <ScrollToTop />
             <Routes>
               <Route path='/' element={<Home />} />
             </Routes>
