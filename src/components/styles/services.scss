@@ -72,6 +72,7 @@
         .services-mid-section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            text-align: left;
 
             .services-personal {
                 margin-bottom: 3rem;
@@ -92,11 +93,12 @@
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             max-width: 80%;
+            text-align: center;
         }
 
         img {
-            width: 290px;
-            height: 450px;
+            width: 390px;
+            height: 490px;
         }
     }
 }
@@ -109,8 +111,8 @@
         }
 
         img {
-            width: 150px;
-            height: 300px;
+            width: 250px;
+            height: 390px;
         }
     }
 }
