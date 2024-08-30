@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 4%;
+    margin: max(5%, 2vw) max(5%, 1vw);
     gap: 1rem;
-    margin-bottom: 2rem;
     position: relative;
 
     .logo {
@@ -73,7 +72,7 @@
 
 @media (max-width: 1230px) {
     .img-wrapper div {
-        width: 16rem;
+        width: 14rem;
         height: 32rem; 
         background-size: 56rem 34rem;
     }

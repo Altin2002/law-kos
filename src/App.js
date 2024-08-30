@@ -13,7 +13,7 @@ import ScrollToTop from './ScrollToTop/ScrollToTop';
 function App() {
 
   useEffect(() => {
-    Aos.init({duration:1350})
+    Aos.init({ duration: 1350 })
   }, [])
 
   const language = useSelector((state) => state.language.language);
@@ -22,15 +22,15 @@ function App() {
     <>
       <div>
         <IntlProvider
-          locale = {language}
-          formats = {{ number: 'en'}}
-          messages = {translate[language]}
+          locale={language}
+          formats={{ number: 'en' }}
+          messages={translate[language]}
         >
           <Router>
-          <ScrollToTop />
-            <Routes>
-              <Route path='/' element={<Home />} />
-            </Routes>
+              <ScrollToTop />
+              <Routes>
+                <Route path='/' element={<Home />} />
+              </Routes>
           </Router>
         </IntlProvider>
       </div>

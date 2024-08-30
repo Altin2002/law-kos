@@ -4,7 +4,7 @@ import "./imageSection.scss"
 
 const ImageSection = () => {
   return (
-    <div className="img-wrapper" data-aos="fade-left">
+    <div className="img-wrapper">
       <div className='left'></div>
       <div className='mid'></div>
       <div className='right'></div>

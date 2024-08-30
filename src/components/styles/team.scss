@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 80px 4%;
+  margin: max(5%, 2vw) max(5%, 1vw);
+
+
   .team-title {
     h1 {
       font-family: "Playfair Display", serif;

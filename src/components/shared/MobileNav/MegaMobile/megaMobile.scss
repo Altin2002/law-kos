@@ -1,16 +1,17 @@
 .mega-items {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #8a8787;
     margin-top: 25px;
+    font-size: max(.7em, .9em);
     p {
         display: flex;
         align-items: center;
         border-top: 1px solid gray;
-        margin: 10px 0;
         span {
+            align-items: center;
             color: #A67B48;
-            margin-right: 15px;
+            margin: 15px 0;
+            margin-right: 20px;
         }
     }
     

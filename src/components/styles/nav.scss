@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    // margin-left: 0 4%;
-    padding: 10px 4%;
+    margin-right: 2%;
+    padding: max(2%, 5px) 4%;
     color: #111111;
     top: 0;
     position: fixed;
@@ -122,7 +122,7 @@
         color: #fff;
         background: #111111;
         padding: 17px 45px;
-        font-size: .7rem;
+        font-size: clamp(.5rem, 1vw, 1rem);
         border-radius: 25px;
         margin-left: 15px;
     }
@@ -149,7 +149,6 @@
 
 @media (max-width: 1046px) {
     .nav {
-
         .links,
         .nav-contact {
             display: none;

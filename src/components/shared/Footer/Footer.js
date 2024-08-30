@@ -71,7 +71,7 @@ const Footer = (props) => {
                                 <div className="links">
                                     {props.links.map((l, i) => {
                                         return (
-                                            <Link key={i} to={l.to} className="footer-item">
+                                            <Link key={l.i} to={l.to} className="footer-item">
                                                 {l.link}
                                             </Link>
                                         );

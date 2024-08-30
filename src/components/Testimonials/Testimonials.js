@@ -10,7 +10,7 @@ const Testimonials = () => {
                     <h1>What our clients say about us</h1>
                 </div>
  
-                <div className='clients'  data-aos="zoom-out">
+                <div className='clients'  data-aos="zoom-in">
                     {TestimonialsData.map((clients, index) => {
                         return (
                             <div className='client' key={index}>

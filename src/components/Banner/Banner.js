@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Banner = () => {
     return (
-        <div className='banner-content' data-aos="fade-up-right">
+        <div className='banner-content'>
             <div className='banner'>
                 <div className='banner-text'>
                     From family law to personal injury, <br />
